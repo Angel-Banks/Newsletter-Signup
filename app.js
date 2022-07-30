@@ -49,7 +49,7 @@ const jsonData = JSON.stringify (data);
 const url = "https://us14.api.mailchimp.com/3.0/lists/aa879c469d";
 const options = {
   method : "POST",
-  auth : "angela1:2765ddcf437251ecab3a662139bdcff-us14"
+  auth : "angela1:22765ddcf437251ecab3a662139bdcff-us14"
 }
 const request = https.request (url, options, function (response){
    if (response.statusCode === 200) {
